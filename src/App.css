@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Image{
+  max-width: 600px;
+  max-height: auto;
+  width: 100%;
+  height: auto;
+}
+
+.Image-wrapper{
+  margin-top: 30px;
+  margin-bottom: auto;
+}
