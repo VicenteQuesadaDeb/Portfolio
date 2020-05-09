@@ -21,4 +21,4 @@ So, we can type whatever we want to add to our portfolio, this is complete perso
 
 We can see the result in the gif below:
 
-[]!(FirstLook.gif)
+![](FirstLook.gif)
