@@ -6,18 +6,37 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1><code>Hi, I'm Vicente Quesada Camón</code></h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I'm a
+          <Typical
+            loop={Infinity}
+            wrapper='b'
+            steps={[
+              ' developer 💻',
+              1000,
+              ' student 👨🏼‍🎓',
+              1000,
+              ' curious person 😯',
+              1000,
+              'n outgoing person 👍🏻',
+              1000,
+              ' wannabe musician 🎵',
+              1000,
+              ' singer 🎤',
+              1000,
+              ' piano player 🎹',
+              1000,
+              ' guitar player 🎸',
+              1000,
+              ' languajes lover 🌏',
+              1000,
+              ' roller skater 👨🏼‍🦽',
+              1000
+            ]
+            }
+          />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
