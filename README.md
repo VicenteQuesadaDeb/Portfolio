@@ -77,6 +77,8 @@ Once we have all the resize images, we have to import them to our APP.js
 
 After that, we are going to use the <picture> tag from HTML to render the images, adding also the <source> and <img> tags as showed below:
 
+````
+
 <picture>
   <source
   className="Image"
@@ -90,6 +92,8 @@ After that, we are going to use the <picture> tag from HTML to render the images
   />
 </picture>
 
+````
+
 Fixing some css styles we get to this final result:
 
 ![](FirstLookFinal.gif)
@@ -101,3 +105,8 @@ Steps taken:
 - Install Photoshop & WebP Plug-in
 - Format and resize images
 - Customize App.js
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
