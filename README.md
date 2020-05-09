@@ -43,7 +43,7 @@ We can do it easily with Photoshop, just saving the image as WebP (this only wor
 
 NOTE: you can also do this with ImageMagick, using the following command:
 
-magick imageName.jpg -quality 75 -define webp:loseless=true imageName.webp
+    magick imageName.jpg -quality 75 -define webp:loseless=true imageName.webp
 
 Keep in mind that the bigger the image is, the slower result you will get. WebP is pretty good compressing images, so don't be scared if your picture size is below 1Mb! With a good resolution the picture will render fine.
 
@@ -53,22 +53,22 @@ The strategy here is to have 5 images, each one reducing its size by 20% compare
 
 You can do this using the following commands:
 
-convert -resize 20% imageName.jpg imageName@1x.jpg
-convert -resize 40% imageName.jpg imageName@2x.jpg
-convert -resize 60% imageName.jpg imageName@3x.jpg
-convert -resize 80% imageName.jpg imageName@4x.jpg
-convert -resize 100% imageName.jpg imageName@5x.jpg
+    convert -resize 20% imageName.jpg imageName@1x.jpg
+    convert -resize 40% imageName.jpg imageName@2x.jpg
+    convert -resize 60% imageName.jpg imageName@3x.jpg
+    convert -resize 80% imageName.jpg imageName@4x.jpg
+    convert -resize 100% imageName.jpg imageName@5x.jpg
 
 As you can see, we vary the percentaje of the resize, changing also the name of the file.
 The goal here is to make the title explanatory, so that we can know at a glance what size the image is with respect to the smallest (in this case @1x). We can read this like: 5x = 1x _ 5 or 100% = 20% _ 5.
 
 We have to do the same with the WebP images, just replacing the .jpg extension for .webp.
 
-convert -resize 20% imageName.webp imageName@1x.webp
-convert -resize 40% imageName.webp imageName@2x.webp
-convert -resize 60% imageName.webp imageName@3x.webp
-convert -resize 80% imageName.webp imageName@4x.webp
-convert -resize 100% imageName.webp imageName@5x.webp
+    convert -resize 20% imageName.webp imageName@1x.webp
+    convert -resize 40% imageName.webp imageName@2x.webp
+    convert -resize 60% imageName.webp imageName@3x.webp
+    convert -resize 80% imageName.webp imageName@4x.webp
+    convert -resize 100% imageName.webp imageName@5x.webp
 
 To mantain an order into the project, I recomend to classify the different formats in separated folders.
 Also, it's a good practice to have a folder called img or images where you place the images you use on the project, so it's recommendable to put the jpg and webp folders into it.
