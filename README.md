@@ -60,7 +60,7 @@ You can do this using the following commands:
     convert -resize 100% imageName.jpg imageName@5x.jpg
 
 As you can see, we vary the percentaje of the resize, changing also the name of the file.
-The goal here is to make the title explanatory, so that we can know at a glance what size the image is with respect to the smallest (in this case @1x). We can read this like: 5x = 1x _ 5 or 100% = 20% _ 5.
+The goal here is to make the title explanatory, so that we can know at a glance what size the image is with respect to the smallest (in this case @1x). We can read this like: 5x = 1x * 5 or 100% = 20% * 5.
 
 We have to do the same with the WebP images, just replacing the .jpg extension for .webp.
 
