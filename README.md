@@ -41,7 +41,7 @@ In order to get the WebP Plug-in, you can check this out: https://developers.goo
 First of all, we are going to convert the picture from the original format (jpg for me) to WebP.
 We can do it easily with Photoshop, just saving the image as WebP (this only works after adding the Plug-in). Before finishing the saving process, a prompt window will appear, allowing you to choose the quality of the picture. In my case I will chose Quality: 75, Compression: Slowest.
 
-![](WebPSavingPrompt.pgn)
+![](WebPSavingPrompt.png)
 
 NOTE: you can also do this with ImageMagick, using the following command:
 
