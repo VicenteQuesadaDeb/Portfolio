@@ -92,7 +92,7 @@ After that, we are going to use the <picture> tag from HTML to render the images
 
 Fixing some css styles we get to this final result:
 
-![] (FirstLookFinal.gif)
+![](FirstLookFinal.gif)
 
 Steps taken:
 
