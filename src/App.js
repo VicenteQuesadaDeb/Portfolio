@@ -36,7 +36,7 @@ function App() {
 
       </div>
      
-        <h1><code>Hi, I'm Vicente Quesada Camón</code></h1>
+        <h2><code>Hi, I'm Vicente Quesada Camón</code></h2>
         <p>
           I'm a
           <Typical
@@ -59,7 +59,7 @@ function App() {
               1000,
               ' guitar player 🎸',
               1000,
-              ' languajes lover 🌏',
+              ' languages lover 🌏',
               1000,
               ' roller skater 👨🏼‍🦽',
               1000
