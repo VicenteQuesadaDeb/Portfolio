@@ -20,7 +20,7 @@ So, we can type whatever we want to add to our portfolio, this is complete perso
 
 We can see the result in the gif below:
 
-![](FirstLook.gif)
+![](src/img/README/FirstLook.gif)
 
 This layout is responsive, so the size of the text will be addapted automaticaly to the browser window dimensions.
 
@@ -40,6 +40,8 @@ In order to get the WebP Plug-in, you can check this out: https://developers.goo
 
 First of all, we are going to convert the picture from the original format (jpg for me) to WebP.
 We can do it easily with Photoshop, just saving the image as WebP (this only works after adding the Plug-in). Before finishing the saving process, a prompt window will appear, allowing you to choose the quality of the picture. In my case I will chose Quality: 75, Compression: Slowest.
+
+![](src/img/README/WebPSavingPrompt.png)
 
 NOTE: you can also do this with ImageMagick, using the following command:
 
@@ -75,7 +77,7 @@ Also, it's a good practice to have a folder called img or images where you place
 
 Once we have all the resize images, we have to import them to our APP.js
 
-After that, we are going to use the <picture> tag from HTML to render the images, adding also the <source> and <img> tags as showed below:
+After that, we are going to use the ````<picture>```` tag from HTML to render the images, adding also the ````<source>```` and ````<img>```` tags as showed below:
 
 ````
 
@@ -96,7 +98,7 @@ After that, we are going to use the <picture> tag from HTML to render the images
 
 Fixing some css styles we get to this final result:
 
-![](FirstLookFinal.gif)
+![](src/img/README/FirstLookFinal.gif)
 
 Steps taken:
 
@@ -105,6 +107,8 @@ Steps taken:
 - Install Photoshop & WebP Plug-in
 - Format and resize images
 - Customize App.js
+
+
 
 
 ## License

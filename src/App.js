@@ -33,7 +33,7 @@ function App() {
             />
           </picture>
         </div>
-
+        
         <h2>
           <code>Hi, I'm Vicente Quesada Camón</code>
         </h2>
