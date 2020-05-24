@@ -109,8 +109,21 @@ Steps taken:
 - Customize App.js
 
 
+Once we have our initial page, we are going to build the rest.
+
+I've been researching and I've found an API which I guess is perfect for our pourpose. I would like to thank Trey Huffine
+for his job, such a quality resource he build!
+More info and details here: https://gitconnected.com/portfolio-api
+
+Lets begin with the folder structure:
+
+As we wanted to design the initial page with our picture, we used the App.js to preview the result in an easy way, but now we are going to add more components to the project, so the structure changes.
+
+We create a folder inside src called components.
+
+In components we are going to create a subfolder for each new component we want to add to our project.
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
