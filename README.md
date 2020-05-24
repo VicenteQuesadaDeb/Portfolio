@@ -126,10 +126,22 @@ In components we are going to create a subfolder for each new component we want 
 src:
 
   - components:
-    - Sidebar
-    - InitialScreen
     - Header
+    - InitialScreen
+    - Sidebar    
+    
+Each of the subfolders contains three .js files, index.js, styles.js and NameOfSubfolder.js.
 
+The final structure of the project should look like this:
+
+![](src/img/README/Project-structure.png)
+
+Every index.js must have the following content:
+
+````
+import * from './NameOfSubfolder'
+export default NameOfSubfolder
+````
 ## License
 
 This project is licensed under the MIT License.
