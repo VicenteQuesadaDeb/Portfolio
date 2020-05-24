@@ -121,7 +121,7 @@ As we wanted to design the initial page with our picture, we used the App.js to 
 
 We create two folders inside src, components and pages.
 
-In components we are going to create a subfolder for each new component we want to add to our project.
+In each folder we are going to create a subfolder for each new component we want to add to our project.
 
 src:
 
@@ -129,8 +129,16 @@ src:
     - Header    
     - Layout
     - Sidebar    
-    
+  - pages:
+    - Education
+    - Experience
+    - InitialScreen
+    - Me
+    - Projects
+
 Each of the subfolders contains three .js files, index.js, styles.js and NameOfSubfolder.js.
+
+
 
 The final structure of the project should look like this:
 
