@@ -138,11 +138,11 @@ src:
 
 Each of the subfolders contains three .js files, index.js, styles.js and NameOfSubfolder.js.
 
-
-
 The final structure of the project should look like this:
 
-![](src/img/README/Project-structure.png)
+![](src/img/README/Project-structure1.png)
+![](src/img/README/Project-structure2.png)
+
 
 Every index.js must have the following content:
 
@@ -156,7 +156,7 @@ On the styles.js you can customize the styles of the component as you pleased.
 Finaly, we have to create the content of the components.
 
 
-Let's begin with Layout since is the one whe have to move from App.js.
+Let's begin with InitialScreen since is the one whe have to build moving the content we have done on App.js.
 Once we have moved the contents of App.js, it should look like this:
 ![](src/img/README/Appjs-empty.png)
 
