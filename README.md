@@ -123,6 +123,12 @@ We create a folder inside src called components.
 
 In components we are going to create a subfolder for each new component we want to add to our project.
 
+src:
+
+  - components:
+    - Sidebar
+    - InitialScreen
+    - Header
 
 ## License
 
