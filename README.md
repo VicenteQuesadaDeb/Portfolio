@@ -137,6 +137,7 @@ src:
     - Projects
 
 Each of the subfolders contains three .js files, index.js, styles.js and NameOfSubfolder.js.
+Also we add an index.js to pages folder so we can configure the pages on our portfolio.
 
 The final structure of the project should look like this:
 
@@ -144,7 +145,7 @@ The final structure of the project should look like this:
 ![](src/img/README/Project-structure2.png)
 
 
-Every index.js must have the following content:
+Every index.js on the subfolders must have the following content:
 
 ````
 import * from './NameOfSubfolder'
@@ -160,9 +161,7 @@ Let's begin with InitialScreen since is the one whe have to build moving the con
 Once we have moved the contents of App.js, it should look like this:
 ![](src/img/README/Appjs-empty.png)
 
-
-
-
+Since we want to see what do we do while we modify a component, we need to configure App.js.
 
 ## License
 
