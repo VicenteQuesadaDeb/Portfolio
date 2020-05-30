@@ -15,6 +15,7 @@ Now we can access and work on our blank project.
 
 First of all, when we inicializate the project (yarn && yarn start) we can see the App.js file with the React logo spinning and a link to the reactjs.org site. That's fine to get started learning how React works and some basics (and advanced) resources to build ReactJS applications.
 We are going to get rid of it, since we know what we want to do, a great, nice looking, proffesional and stylish portfolio.
+To begin, we modify App.js, but it will be changed later on.
 
 We are going to get rid of the React logo and the link so we can have a blanck App.js file to modify. I will leave the styles by default at the beginning, because we are structuring our project first.
 
@@ -110,6 +111,7 @@ Steps taken:
 - Format and resize images
 - Customize App.js
 
+## Project Structure
 
 Once we have our initial page, we are going to build the rest.
 
@@ -156,15 +158,26 @@ export default NameOfSubfolder
 
 On the styles.js you can customize the styles of the component as you pleased.
 
-Finaly, we have to create the content of the components.
+## App.js
 
-
-Let's begin with InitialScreen since is the one whe have to build moving the content we have done on App.js.
+Let's begin moving the content previously created on App.js to InitialScreen.
 Once we have moved the contents of App.js, it should look like this:
 
 ![](src/img/README/Appjs-empty.png)
 
 Since we want to see what do we do while we modify a component, we need to configure App.js.
+
+In this component we are going to make the call to the API. To do this, we use the Hooks useEffect and useState.
+For more information about Hooks and the most used Hooks you can check this out: https://reactjs.org/docs/hooks-reference.html
+
+We need to return some content, so we have to import our pages/index.js as Pages and add it to the return.
+Pages componet will have a user prop, the one we are implemented on the useState.
+In case something fails, we also add a test, returning a div if the user doesn't exist.
+
+
+Once we have the App.js ready, lets implement the pages.
+
+
 
 ## License
 
