@@ -11,6 +11,8 @@ Steps taken:
 
 Now we can access and work on our blank project.
 
+## Initial Screen
+
 First of all, when we inicializate the project (yarn && yarn start) we can see the App.js file with the React logo spinning and a link to the reactjs.org site. That's fine to get started learning how React works and some basics (and advanced) resources to build ReactJS applications.
 We are going to get rid of it, since we know what we want to do, a great, nice looking, proffesional and stylish portfolio.
 
@@ -159,6 +161,7 @@ Finaly, we have to create the content of the components.
 
 Let's begin with InitialScreen since is the one whe have to build moving the content we have done on App.js.
 Once we have moved the contents of App.js, it should look like this:
+
 ![](src/img/README/Appjs-empty.png)
 
 Since we want to see what do we do while we modify a component, we need to configure App.js.
