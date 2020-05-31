@@ -183,9 +183,10 @@ The Layout component assembly the header and the sidebar into one page.
 This way we can create the same structure for all the pages into our portfolio in an easy way.
 We just have to pass props to fullfil the content of the Layout.
 
-  ## UserHeader
+### UserHeader
 
-  
+
+
 
 ## Pages
 
