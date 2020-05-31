@@ -175,13 +175,22 @@ Pages componet will have a user prop, the one we are implemented on the useState
 In case something fails, we also add a test, returning a div if the user doesn't exist.
 
 
-Once we have the App.js ready, lets implement the pages.
+## Layout 
+
+The goal is to use the components as the fathers of the pages. Let me explain.
+We have created a folder called components. Those components are the skeleton of each page.
+The Layout component assembly the header and the sidebar into one page.
+This way we can create the same structure for all the pages into our portfolio in an easy way.
+We just have to pass props to fullfil the content of the Layout.
+
+  ## UserHeader
+
+  
 
 ## Pages
 
 The pages index shows the different screens we can reach. Clicking on a certain element, we can change the screen we are seeing. To do so, we are going to use React Router.
 More info here: https://reacttraining.com/react-router/web/guides/quick-start and also a great tutorial here from Dev Ed to understand how this works and how to implement properly: https://www.youtube.com/watch?v=Law7wfdg_ls
-
 
 
 ## License
