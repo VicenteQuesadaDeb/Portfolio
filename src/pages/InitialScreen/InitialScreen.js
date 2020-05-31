@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import { StyledHeader, StyledInitialScreen } from "./styles";
+import { StyledHeader, StyledImage, StyledImageWrapper } from "./styles";
 import { Link, useLocation } from "react-router-dom";
 
 //Images import
@@ -16,28 +16,28 @@ import personalImage3xwebp from "../../img/webp/personalPicture@3x.webp";
 import personalImage4xwebp from "../../img/webp/personalPicture@4x.webp";
 import personalImage5xwebp from "../../img/webp/personalPicture@5x.webp";
 
-function App() {
+function InitialScreen() {
   const location = useLocation();
 
   return (
-    <StyledInitialScreen>
-      <StyledHeader>
-        <picture>
-          <source
-            className="Image"
-            srcset={`${personalImage1xwebp} 429w, ${personalImage2xwebp} 857w, ${personalImage3xwebp} 1286w, ${personalImage4xwebp} 1714w, ${personalImage5xwebp} 2143w`}
-            type="image/webp"
-          />
-          <img
-            className="Image"
-            srcset={`${personalImage1x} 429w, ${personalImage2x} 857w, ${personalImage3x} 1286w, ${personalImage4x} 1714w, ${personalImage5x} 2143w`}
-            alt=""
-          />
-        </picture>
+    <div>
+        <StyledHeader>
+        <StyledImageWrapper>
+          <picture>
+            <source
+              srcset={`${personalImage1xwebp} 429w, ${personalImage2xwebp} 857w, ${personalImage3xwebp} 1286w, ${personalImage4xwebp} 1714w, ${personalImage5xwebp} 2143w`}
+              type="image/webp"
+            />
+            <StyledImage
+              srcset={`${personalImage1x} 429w, ${personalImage2x} 857w, ${personalImage3x} 1286w, ${personalImage4x} 1714w, ${personalImage5x} 2143w`}
+              alt=""
+            />
+          </picture>
+        </StyledImageWrapper>
         <h1>
           <code>Hi, I'm Vicente Quesada Camón</code>
         </h1>
-        <p style={{marginTop:30}}>
+        <p style={{ marginTop: 30 }}>
           I'm a
           <Typical
             loop={Infinity}
@@ -66,7 +66,7 @@ function App() {
             ]}
           />
         </p>
-        <div style={{marginTop:30}}>
+        <div style={{ marginTop: 30 }}>
           <Link
             inline={false}
             isActive={location.pathname === "/"}
@@ -78,8 +78,8 @@ function App() {
           </Link>
         </div>
       </StyledHeader>
-    </StyledInitialScreen>
+    </div>
   );
 }
 
-export default App;
+export default InitialScreen;

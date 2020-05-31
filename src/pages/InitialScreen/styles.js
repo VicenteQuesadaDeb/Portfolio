@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledHeader = styled.header`
+export const StyledHeader = styled.div`
    {
     text-align: center;
     background-color: #282c34;
@@ -14,7 +14,7 @@ export const StyledHeader = styled.header`
   }
 `;
 
-export const StyledInitialScreen = styled.body`
+export const StyledImageWrapper = styled.div`
    {
     max-width: 600px;
     max-height: auto;
@@ -22,4 +22,8 @@ export const StyledInitialScreen = styled.body`
     height: auto;
   }
 `;
+
+export const StyledImage = styled.img`{
+  width: 100%
+}`
 

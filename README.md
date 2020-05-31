@@ -177,6 +177,11 @@ In case something fails, we also add a test, returning a div if the user doesn't
 
 Once we have the App.js ready, lets implement the pages.
 
+## Pages
+
+The pages index shows the different screens we can reach. Clicking on a certain element, we can change the screen we are seeing. To do so, we are going to use React Router.
+More info here: https://reacttraining.com/react-router/web/guides/quick-start and also a great tutorial here from Dev Ed to understand how this works and how to implement properly: https://www.youtube.com/watch?v=Law7wfdg_ls
+
 
 
 ## License
