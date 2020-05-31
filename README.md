@@ -185,6 +185,7 @@ We just have to pass props to fullfil the content of the Layout.
 
 ### UserHeader
 
+In this compoent we are going to show our picture and the most relevant data about ourselves.
 
 
 
